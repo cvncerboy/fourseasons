@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images01.nicepage.com/c9/a0/c9a0e2a15dfcb5c578d43afd3deefc81.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.header {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.section-carousel {
+    background-color: #EAC61E;
+    padding: 5rem;
+}
+
+.img-slides img {
+    width: 50%;
+    height: 50%;
+}
+
+.glide {
+    text-align: center;
+}
+
+.glide__slide h3, .booking h2, .section-review h1, .booking-location-check h1, .map h2 {
+    font-size: 3rem;
+}
+
+.glide__slide p, .booking p, .booking h6, .section-review p, .booking-location-check p, .booking-location-check h6, .map p, .map h6 {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+.glide__arrow {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.section-booking{
+    width: 80%;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking, .map {
+    width: 50%;
+}
+
+.booking h6 {
+    text-align: center;
+    width: fit-content;
+    border-bottom: 2px solid black;
+}
+
+.img-book {
+    width: 50%;
+    height: 100vh;
+    background-image: url(https://images01.nicepage.com/b9/8e/b98ece2cc7b7f0de1e4a00c6859faa22.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2rem;
+}
+
+.section-review {
+    background-color: #F2F2F2;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.section-review p {
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.review-images {
+    display: flex;
+}
+
+.review-image {
+    width: 23.8%;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: .5rem;
+}
+
+.img1 {
+    background-image: url(https://images01.nicepage.com/d8/5a/d85a697e1e32f4e5eaa5c95b1184c9e3.jpeg);
+}
+.img2 {
+    background-image: url(https://images01.nicepage.com/76/12/7612fe0831406d9f880aad24761a25df.jpeg);
+}
+.img3 {
+    background-image: url(https://images01.nicepage.com/7e/6a/7e6a1c63de58760ba77edaaae64667c6.jpeg);
+}
+.img4 {
+    background-image: url(https://images01.nicepage.com/8f/32/8f32856985d0ea6e4917ae2a143003bd.jpeg);
+}
+.img5 {
+    background-image: url(https://images01.nicepage.com/21/d1/21d16f619b4982311f9822f37f8e2b52.jpeg);
+}
+.img6 {
+    background-image: url(https://images01.nicepage.com/02/1e/021eae2484576b01f466032af16db23d.jpeg);
+}
+.img7 {
+    background-image: url(https://images01.nicepage.com/2f/bc/2fbc3359e2fdf40920883fd21e1aadd1.jpeg);
+}
+.img8 {
+    background-image: url(https://images01.nicepage.com/2a/60/2a6028840859c151762d3e8b016e7546.jpeg);
+}
+
+.booking-location-check {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.books h6, .checks h6 {
+    width: fit-content;
+    border-bottom: 2px solid #fff;
+    margin: auto;
+    color: #fff;
+}
+
+.locations h6  {
+    width: fit-content;
+    border-bottom: 2px solid #000;
+    margin: auto;
+    color: #000;
+}
+
+.books, .locations, .checks {
+    padding: 5rem 3rem;
+}
+
+.books {
+    background-color: #EAC61E;
+}
+
+.locations {
+    background-color: #7EB9A3;
+    color: #fff;
+}
+
+.checks {
+    background-color: #1D5C40;
+    color: #fff;
+}
+
+.section-map {
+    background-image: url(https://images01.nicepage.com/ec/96/ec96180bdf28e881ff05711b6487910d.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    opacity: 5;
+}
+
+.maps {
+    width: 90%;
+    padding: 5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map h6 {
+    width: fit-content;
+    border-bottom: 2px solid #fff !important;
+}
+
+.img-maps {
+    width: 50%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #204709;
+    color: #fff;
+    text-align: center;
+    padding: 5rem;
+}
+
+footer h1 {
+    margin-bottom: 2rem;
+}
+
+
+@media(max-width: 992px) {
+    .img-slides img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .glide__arrow--left {
+        left: -5rem !important;
+    }
+    
+    .glide__arrow--right {
+        right: -5rem !important;
+    }
+
+    .section-booking {
+        display: block;
+    }
+
+    .booking, .img-book, .map, .img-maps {
+        width: 100%;
+    }
+
+    .img-book {
+        margin-bottom: 2rem;
+    }
+
+    .review-images {
+        flex-wrap: wrap;
+    }
+
+    .review-image {
+        width: 48.1%;
+        height: 50vh;
+    }
+
+    .booking-location-check {
+        flex-wrap: wrap;
+    }
+
+    .maps {
+        display: block;
+        width: 100%;
+        padding: 3rem;
+    }
+}
+
+@media(max-width: 667px) {
+    .review-image {
+        width: 100%;
+    }
+}
